@@ -16,7 +16,7 @@
     context: human
   - type: MMI
   - type: BorgBrain
-  - type: BlockMovement
+  # - type: BlockMovement # Fire Station edit
   - type: Examiner
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter

@@ -28,7 +28,7 @@
     stopSearchVerbText: boris-stop-searching-verb-text
     stopSearchVerbPopup: boris-stopped-searching
     job: Borg
-  - type: BlockMovement
+  # - type: BlockMovement # Fire Station edit
   - type: Examiner
   - type: BorgBrain
   - type: IntrinsicRadioReceiver
@@ -80,7 +80,6 @@
       map: ["base"]
   - type: Input
     context: "ghost"
-  - type: BlockMovement
   - type: ToggleableGhostRole
     examineTextMindPresent: sofia-installed
     examineTextMindSearching: sofia-still-searching
@@ -96,6 +95,7 @@
     stopSearchVerbText: sofia-stop-searching-verb-text
     stopSearchVerbPopup: sofia-stopped-searching
     job: Borg
+  # - type: BlockMovement # Fire Station edit
   - type: Examiner
   - type: BorgBrain
   - type: IntrinsicRadioReceiver
